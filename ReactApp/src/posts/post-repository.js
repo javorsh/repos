@@ -1,10 +1,10 @@
 // const Post = require('./posts');
 import Post from './posts.js';
 
-const MOCK_USERS = [
-    new Post('New in JavaScript', 'Trayan Iliev', 'New ES6 Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
-    new Post('New in JavaScript 2', 'Trayan Iliev', 'New ES6 Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
-    new Post('New in JavaScript 3', 'Trayan Iliev', 'New ES6 Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
+const METEO_USERS = [
+    new Post('New Weatherman', 'Yavor Sheptoev', 'New Weather Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
+    new Post('New Weatherman 2', 'Trayan Iliev', 'New Weather Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
+    new Post('New Weatherman 3', 'Trayan Iliev', 'New Weather Features are here ...', ['es6', 'promises'],'https://freesvg.org/img/post2.png'),
 
 ];
 
@@ -12,7 +12,7 @@ let nextId = 0;
 class PostRepository {
     posts = new Map();
     constructor() {
-        MOCK_USERS.forEach(post => this.create(post));
+        METEO_USERS.forEach(post => this.create(post));
     }
     create(post) {
         post.id = ++nextId;

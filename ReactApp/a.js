@@ -3,7 +3,7 @@
 
 
 function test(){
-    document.getElementById('result').innerHTML='test';
+    document.getElementById('results').innerHTML='test';
 }
 
 
@@ -21,7 +21,7 @@ function connectToDB() {
       if (err) throw err;
     });
     console.log("Connected");
-    document.getElementById('result').innerHTML='Mysql Connected';
+    document.getElementById('results').innerHTML='Mysql Connected';
   }
 
 window.addEventListener('load', test);

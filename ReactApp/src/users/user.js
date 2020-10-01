@@ -1,3 +1,5 @@
+import Entity from '../common/entity.js';
+
 class User {
     
   constructor({ name, password, role, ip }) {

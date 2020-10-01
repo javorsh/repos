@@ -1,3 +1,5 @@
+import Entity from './common/entity.js';
+
 class Station {
     
   constructor({ name, icao, synop, lat,lon }) {
