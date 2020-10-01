@@ -1,7 +1,6 @@
 {
   "name": "javor",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "lite-server",
@@ -15,6 +14,8 @@
     "mysql2": "^2.2.5"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "g": "^2.0.1"
+  },
+  "description": ""
 }

@@ -2,7 +2,7 @@
 import User from './user.js';
 
 const METEO_USERS = [
-    new User('javorsh', 'javorsh1', 'REGISTERED', '*')
+    new User('javorsh', 'javorsh1', 'REGISTERED', '*'),
     new User('admin', 'admin1', 'ADMIN', '*'),
 	new User('anonymous', '', 'GUEST', '*'),
 	new User('weather', 'weather11', 'REGISTERED', '*'),
